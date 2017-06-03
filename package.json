@@ -8,20 +8,23 @@
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec 'npm test' "
   },
-  "engines":{
+  "engines": {
     "node": "6.2.2"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
     "expect": "^1.20.2",
     "express": "^4.15.3",
+    "lodash": "^4.17.4",
     "mocha": "^3.4.2",
     "mongodb": "^2.2.27",
     "mongoose": "^4.10.4",
     "nodemon": "^1.11.0",
-    "supertest": "^3.0.0"
+    "supertest": "^3.0.0",
+    "validator": "^7.0.0"
   },
   "devDependencies": {
     "expect": "^1.20.2",
